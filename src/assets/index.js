@@ -24,6 +24,8 @@ import bdo from "./company/bdo.png";
 import bright from "./company/bright.png";
 import bhlive from "./company/bhlive.png";
 import pwc from "./company/pwc.png";
+import Leeds from "./company/Leeds.png";
+
 
 import mna from "./mna.png";
 import link from "./link.png";
@@ -75,6 +77,7 @@ export {
   springfield,
   golf,
   football,
+  Leeds,
   macro,
   breakin,
 };

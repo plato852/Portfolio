@@ -24,7 +24,7 @@ import {
   word,
   amplify,
   jpmorgan,
-  college,
+  Leeds,
   springfield,
   golf,
   football,
@@ -216,34 +216,25 @@ const experiences = [
 const education = [
   {
     school: "University of Bath",
-    course: "BSc (hons) Mathematics",
-    grades: "85% (First)",
+    course: "MSc Data Science",
+    grades: "Distinction",
     icon: bath,
     iconBg: "#E6DEDD",
-    date: "2022-Present",
+    date: "2024-2025",
     points: [
-      "Year 1: Probability & Statistics (95%), Vector Calculus (97%), Python Coursework (89%).",
-      "Year 2: Probability 2A (100%), Probability 2B (97%), ODEs & Control (95%), Numerical Analysis Python Coursework (94%). Top of year in all 4.",
+      "Elected Faculty of Science & Course Representative, representing the student body.",
+      "Applied Data Science (81%), Reinforcement Learning (82%), Machine Learning (74%), Statistics (70%), Software Technologies (Python and SQL) (71%),  Dissertation (75%)",
     ],
   },
   {
-    school: "City of Portsmouth College",
-    course: "Maths, Further Maths, Physics",
-    grades: "A*A*A*",
-    icon: college,
+    school: "University of Leeds",
+    course: "MEng Aerospace Engineering (Hons)",
+    grades: "Second-Upper Class (2:1)",
+    icon: Leeds,
     iconBg: "#E6DEDD",
-    date: "2020 - 2022",
+    date: "2019 - 2023",
     points: [
-    ],
-  },
-  {
-    school: "Springfield School",
-    grades: "99999999977 and L3 Excel Methods",
-    icon: springfield,
-    iconBg: "#E6DEDD",
-    date: "2015 - 2020",
-    points: [
-      "9 in Maths, Further Maths and English Language."
+      "Engineering Mathematics Distinct Honor (full-mark achieved)"
     ],
   },
 ];

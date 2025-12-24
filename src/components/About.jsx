@@ -47,10 +47,10 @@ const About = () => {
               variants={fadeIn("", "", 0.1, 1)}
               className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
           >
-              I'm a skilled mathematician with a particular interest in probability and its
-              financial implications. I have some of the top grades in my cohort with an 85%
-              overall average grade and a 97% average grade across my last three probability
-              modules. I give 100% effort in everything that I do, and I'm passionate
+              I’m a mathematically driven MSc Data Science student with a strong interest in probability, 
+              statistics, and analytical problem-solving. I consistently rank among the top 
+              performers in my cohort, 
+              achieving a first-class average, with particularly strong results in probability-focused modules. My background in engineering and data science has equipped me with a rigorous quantitative mindset and a solid foundation in modelling, computation, and data-driven reasoning. I give 100% effort in everything that I do, and I'm passionate
               about putting my skills and work ethic to good use in the finance industry,
               with the hope of having a purposeful and impactful career. Below are some of my interests:
           </motion.p>
