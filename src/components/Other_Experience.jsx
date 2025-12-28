@@ -79,8 +79,8 @@ const Other_Experience = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          The following activities I have completed emphasise my passion for investment banking
-          and trading and prove my ability to complete relevant tasks to a high standard.
+          The following activities I have completed emphasise my passion for Data Science 
+          and prove my ability to complete relevant tasks to a high standard.
 
         </motion.p>
       </div>
