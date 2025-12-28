@@ -7,8 +7,18 @@ import excel from "./excel.png";
 import dice from "./dice.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import piano from "./piano.png";
 import golf from "./golf.png";
 import football from "./football.png";
+import poker from "./poker.png";
+import optimise from "./optimise.png";
+import isthisadeal from "./isThisADeal.png";
+import sql from "./sql.png";
+import tplink from "./tplink.png";
+import tableau from "./tableau.png";
+import network from "./network.png";
+import housing from "./housing.png";
+import age from "./age.png";
 
 import css from "./tech/css.png";
 import html from "./tech/html.png";
@@ -71,13 +81,23 @@ export {
   python,
   R,
   word,
+  tplink,
+  network,
+  poker,
   amplify,
+  housing,
   jpmorgan,
   college,
+  optimise,
   springfield,
   golf,
   football,
+  sql,
+  isthisadeal,
+  tableau,
+  piano,
   Leeds,
   macro,
+  age,
   breakin,
 };

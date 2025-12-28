@@ -80,8 +80,8 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          The following projects showcase my skills and deep interest in investment banking,
-          trading, and the mathematical and financial applications of programming.
+          The following projects showcase my skills and deep interest in Data Science,
+          Machine Learning, and the mathematical and theoretical applications of programming.
           Each project has a brief description with links to the content and live demos if
           applicable. They reflect my ability to solve complex problems in an innovative and proactive
           way, work with different technologies, and manage projects efficiently.

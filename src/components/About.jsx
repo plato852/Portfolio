@@ -47,12 +47,14 @@ const About = () => {
               variants={fadeIn("", "", 0.1, 1)}
               className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
           >
-              I’m a mathematically driven MSc Data Science student with a strong interest in probability, 
+              I’m a mathematically driven Data Science Graduate with a strong interest in probability, 
               statistics, and analytical problem-solving. I consistently rank among the top 
               performers in my cohort, 
-              achieving a first-class average, with particularly strong results in probability-focused modules. My background in engineering and data science has equipped me with a rigorous quantitative mindset and a solid foundation in modelling, computation, and data-driven reasoning. I give 100% effort in everything that I do, and I'm passionate
-              about putting my skills and work ethic to good use in the finance industry,
-              with the hope of having a purposeful and impactful career. Below are some of my interests:
+              achieving a first-class average, with particularly strong results in probability-focused modules. 
+              
+              My background in Engineering and Data Science has equipped me with a quantitative mindset and a solid foundation in 
+              modelling, computation, and data-driven reasoning. I give 100% effort in everything that I do, and I'm passionate
+              about putting my skills and work ethic to good use in the real-world problems. Below are some of my interests:
           </motion.p>
 
           <div className='mt-20 flex flex-wrap gap-10'>

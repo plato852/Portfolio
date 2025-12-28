@@ -12,22 +12,27 @@ import {
   bdo,
   bright,
   bath,
-  bhlive,
-  pwc,
+  tableau,
+  age,
   mna,
+  piano,
   fxalgo,
   option,
+  poker,
   monty,
+  housing,
   powerpoint,
   python,
   R,
+  sql,
+  tplink,
   word,
   amplify,
   jpmorgan,
   Leeds,
-  springfield,
+  network,
+  isthisadeal,
   golf,
-  football,
   macro,
   breakin,
 } from "../assets";
@@ -61,46 +66,38 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Mathematician",
+    title: "Probability & Stochastic Modelling",
     icon: dice,
   },
   {
-    title: "Financial Modelling",
+    title: "Exploratory Data Analysis",
     icon: excel,
   },
   {
-    title: "Algorithmic Trading",
-    icon: trading,
-  },
-  {
-    title: "Mathematics With AI",
+    title: "Machine Learning",
     icon: ai,
   },
   {
-    title: "Mathematics Tutor",
-    icon: tutor,
+    title: "Resistence Training",
+    icon: plate,
   },
   {
-    title: "Powerlifter",
-    icon: plate,
+    title: "Strategic Games",
+    icon: poker,
   },
   {
     title: "Golf",
     icon: golf,
   },
   {
-    title: "Football",
-    icon: football,
+    title: "Piano",
+    icon: piano,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
+    name: "CSS",
     icon: css,
   },
   {
@@ -112,8 +109,11 @@ const technologies = [
     icon: python,
   },
   {
-    name: "R",
-    icon: R,
+    name: "SQL",
+    icon: sql,
+  },
+  { name: "Tableau",
+    icon: tableau,
   },
   {
     name: "Excel",
@@ -131,84 +131,38 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Audit Intern",
-    company_name: "BDO",
-    icon: bdo,
+    title: "Technical Lead (Intern)",
+    company_name: "Bath Enterprise",
+    icon: bath,
     iconBg: "#E6DEDD",
-    date: "2024",
+    date: "Jan 2025",
     points: [
-      "Auditing a wide range of clients, including private equity firms.",
-      "Performing stock counts and meeting clients on client sites, developing professional relationships.",
+      "Designed a secure and scalable attendance tracking system for the University of Bath's entrepreneurial community, enhancing student engagement and data accessibility. ",
+      "Utilised cloud-based technologies and authored detailed documentation to facilitate maintenance and long-term system usability. ",
+      "Developed a GDPR-compliant PostgreSQL database to ensure efficient storage and management of attendance records.",
     ],
   },
   {
-    title: "Virtual Finance & Consulting Intern",
-    company_name: "Bright Network, IEUK",
-    icon: bright,
+    title: "Technical Intern",
+    company_name: "IsThisADeal.ai",
+    icon: isthisadeal,
     iconBg: "#E6DEDD",
-    date: "June 2024",
+    date: "Nov 2024",
     points: [
-      "Audited a fictitious company, successfully correcting all financial statement errors. ",
-      "Learnt and applied the concept of materiality and PESTLE analysis.",
-      "Compiled a clearance agenda for a closing meeting with the client.",
+      "Designed and implemented a web scraping script to extract and analyse product data from e-commerce websites.",
+      "Built a UI/UX mock-up and implemented psychological principles to minimise users' cognitive load & enhance user experience.",
+      // "Leveraged knowledge in Python, HTML, JavaScript, BeautifulSoup, Automated Web-Scraping, Canva, Excel, PowerPoint"
     ],
   },
   {
-    title: "Lead AI Researcher - AI VIP",
+    title: "Faculty of Science & MSc Data Science Course Representative",
     company_name: "University of Bath",
     icon: bath,
     iconBg: "#E6DEDD",
-    date: "Jan 2024 - June 2024",
+    date: "Sep 2024 - June 2025",
     points: [
-      "Lead researcher within a team of students and academic professionals that collaborated to leverage AI for mathematical problem-solving.",
-      "Delivered weekly presentations to share research progress and innovative project strategies.",
-      "Implemented AI APIs for use in sophisticated prompt engineering.",
-    ],
-  },
-  {
-    title: "Mathematics Tutor",
-    company_name: "University of Bath",
-    icon: bath,
-    iconBg: "#E6DEDD",
-    date: "Sep 2023 - Feb 2024",
-    points: [
-      "Tutored groups of A level students, representing the teaching quality of the university.",
-      "Achieved a 20% increase in the number of questions answered correctly per session, and a 100% attendance record.",
-    ],
-  },
-  {
-    title: "Online Personal Trainer and Transformation Coach",
-    company_name: "JB Coaching",
-    icon: jb,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Oct 2022",
-    points: [
-      "Simultaneously designed tailored fitness programs for a diverse range of clients, each one to fit their specific needs.",
-      "An adaptable and client-focused approach led to a minimum of a 10% decrease in body fat per client.",
-      "Utilised excel to perform multiple data analyses on progress to model and extrapolate future client goals.",
-    ],
-  },
-  {
-    title: "Personal Trainer and Wall Climbing Instructor",
-    company_name: "BH Live Active",
-    icon: bhlive,
-    iconBg: "#E6DEDD",
-    date: "June 2021 - Oct 2022",
-    points: [
-      "Juggled two roles within the same company, facilitating the upkeep of both the wall climbing facility and the gym.",
-      "Taught customers how to use both facilities, while ensuring correct and safe practise.",
-    ],
-  },
-  {
-    title: "Spring Intern",
-    company_name: "PWC",
-    icon: pwc,
-    iconBg: "#E6DEDD",
-    date: "April 2021",
-    points: [
-      "Shadowed roles in audit, technology and operations.",
-      "Completed a consultancy project to find and test solutions for reducing carbon emissions and decreasing tax while maintaining product quality.",
-      "Acquired strategies to manage stress and navigate challenges like impostor syndrome with confidence.",
+      "Advocated for the interests and welfare of Postgraduate students within the Science Department.",
+      "Facilitated communication and collaboration between students, faculty, and administration to address student concerns and contribute to departmental improvements.",
     ],
   },
 ];
@@ -241,58 +195,58 @@ const education = [
 
 const projects = [
   {
-    name: "M&A Student Handbook",
+    name: "Housing Prices Forecast",
     description:
-      "I found that the content involved with M&A investment banking was simple, but explained poorly and in an unstructured way online. I did what any normal person would do in this situation, and write a book! This book gives a brief but holistic and comprehensive overview of M&A, in a way that is understandable and structured for someone with limited background knowledge.",
+      "My family has recently relocated to the UK and is currently exploring housing options in the Southeast. As with any major purchase, the process has presented its challenges. To support this decision, I have taken the initiative to conduct additional research into the areas we are considering.",
     tags: [
-      {
-        name: "M&A",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "DCF Analysis",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Financial Statements",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: mna,
-    source_code_link: "https://github.com/joelb1401/MAhb",
-  },
-  {
-    name: "Options Pricer",
-    description:
-      "Machine learning implementation in Python using a Random Forest model to price QQQ (Invesco QQQ Trust) options. Also included is the document of the steps I took to create this and what I learnt.",
-    tags: [
-      {
-        name: "Python",
-        color: "blue-text-gradient",
-      },
       {
         name: "Machine Learning",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Options",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: option,
-    source_code_link: "https://github.com/joelb1401/Options-Pricer",
-  },
-  {
-    name: "FOREX Trading Algorithm",
-    description:
-      "A FOREX trading algorithm and its backtester that trades XAUUSD on the 5min TF according to a fine-tuned strategy with proper risk management. This is the result of over 10 different versions and strategy adjustments. It achieved a 6% return in one month.",
-    tags: [
-      {
-        name: "FOREX",
         color: "blue-text-gradient",
       },
       {
-        name: "Risk Management",
+        name: "Exploratory Data Analysis (EDA)",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Regression Modelling",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: housing,
+    source_code_link: "https://github.com/plato852/housing-price-forecast-with-regression-modelling",
+  },
+  {
+    name: "Technology News Network Narrative Analysis",
+    description:
+      "Natural Language Processing implementation in Python using a parser to extract subjects, verbs and objects triplets from news articles. Also included is the document of the steps I took to filter the effective triplets, and what I learnt.",
+    tags: [
+      {
+        name: "NLP",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Sentiment Network",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Big Data Processing",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: network,
+    source_code_link: "https://github.com/plato852/Narrative-Network-Analysis",
+  },
+  {
+    name: "Age Gender Estimator",
+    description:
+      "This project explores the development of a machine learning pipeline for predicting age and gender from data inputs, which covers data preprocessing, model training, and evaluation, with a focus on assessing predictive performance and analysing results.",
+    tags: [
+      {
+        name: "CNN",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Facial Recognition",
         color: "green-text-gradient",
       },
       {
@@ -300,8 +254,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: fxalgo,
-    source_code_link: "https://github.com/joelb1401/FXalgo",
+    image: age,
+    source_code_link: "https://github.com/plato852/Age-Gender-Estimator-CNN",
   },
   {
     name: "Monty Hall Website Entrance",
@@ -328,118 +282,118 @@ const projects = [
     image: monty,
     source_code_link: "https://github.com/joelb1401/MHgame",
   },
-  {
-    name: "BreakIn",
-    description:
-      "As of July 2024, I saw a gap in the student/professional networking market. I realised, from my own experience, that finding the right people to connect with is time-consuming, even with LinkedIn. I thought of creating a service that could quickly find the professionals most relevant to someone, use an algorithm to rank them from most to least relevant, then use AI to write the best connection message for them. This could provide a quick and easy way to help students break into industry. However, unless I pay tens-of-thousands for the LinkedIn database, there is no legal way to search for professionals via code. See hiQ Labs, Inc. v. LinkedIn Corp., 938 F.3d 985 (9th Cir. 2019).",
-    tags: [
-      {
-        name: "AI",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Entrepreneurial",
-        color: "green-text-gradient",
-      },
-      {
-        name: "HTML",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "orange-text-gradient",
-      },
-    ],
-    image: breakin,
-    source_code_link: "https://joelb1401.github.io/BreakIn/",
-  },
+  // {
+  //   name: "BreakIn",
+  //   description:
+  //     "As of July 2024, I saw a gap in the student/professional networking market. I realised, from my own experience, that finding the right people to connect with is time-consuming, even with LinkedIn. I thought of creating a service that could quickly find the professionals most relevant to someone, use an algorithm to rank them from most to least relevant, then use AI to write the best connection message for them. This could provide a quick and easy way to help students break into industry. However, unless I pay tens-of-thousands for the LinkedIn database, there is no legal way to search for professionals via code. See hiQ Labs, Inc. v. LinkedIn Corp., 938 F.3d 985 (9th Cir. 2019).",
+  //   tags: [
+  //     {
+  //       name: "AI",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Entrepreneurial",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "HTML",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "JavaScript",
+  //       color: "orange-text-gradient",
+  //     },
+  //   ],
+  //   image: breakin,
+  //   source_code_link: "https://joelb1401.github.io/BreakIn/",
+  // },
 ];
 
-const other_experience = [
-  {
-    name: "JP Morgan Chase Quantitative Research Job Simulation - Forage",
-    description:
-      "This simulation focused on quantitative research  and machine learning methods to analyse a book of loans and estimate a customer's probability of default. I also used dynamic programming to convert FICO scores into categorical data to predict defaults. I have included the code I produced as well as the documentation of the steps I took.",
-    tags: [
-      {
-        name: "Quantitative Research",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Machine Learning",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Default Prediction",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jpmorgan,
-    source_code_link: "https://github.com/joelb1401/JPMquantsim",
-  },
-  {
-    name: "AmplifyME M&A Finance Accelerator Simulation",
-    description:
-      "Before knowing much about investment banking or M&A, I completed this simulation and achieved a 96% score. It required successful completion of an entire DCF analysis with a recommendation in under 45 minutes.",
-    tags: [
-      {
-        name: "M&A",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "DCF Analysis",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Financial Statements",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: amplify,
-    source_code_link: "https://github.com/joelb1401/AMdcf",
-  },
-  {
-    name: "JP Morgan Chase Investment Banking Job Simulation - Forage",
-    description:
-      "This simulation introduced me to DCF analysis, target company research and identification, and the auction process. After completing the DCF model, I crafted a concise 2-pager to inform a client's decision-making.",
-    tags: [
-      {
-        name: "M&A",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "DCF Analysis",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Due Diligence",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jpmorgan,
-    source_code_link: "https://github.com/joelb1401/JPMibsim",
-  },
-  {
-    name: "MacroVoices Podcast",
-    description:
-      "To keep up-to-date on the current relevant macroeconomic events and learn about how they affect the markets, I listen to the weekly podcast by Erik Townsend and Patrick Ceresna.",
-    tags: [
-      {
-        name: "Macroeconomics",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Investment",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Politics",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: macro,
-    source_code_link: "https://www.macrovoices.com/",
-  },
-];
+ const other_experience = [
+  // {
+  //   name: "JP Morgan Chase Quantitative Research Job Simulation - Forage",
+  //   description:
+  //     "This simulation focused on quantitative research  and machine learning methods to analyse a book of loans and estimate a customer's probability of default. I also used dynamic programming to convert FICO scores into categorical data to predict defaults. I have included the code I produced as well as the documentation of the steps I took.",
+  //   tags: [
+  //     {
+  //       name: "Quantitative Research",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Machine Learning",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Default Prediction",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: jpmorgan,
+  //   source_code_link: "https://github.com/joelb1401/JPMquantsim",
+  // },
+  // {
+  //   name: "AmplifyME M&A Finance Accelerator Simulation",
+  //   description:
+  //     "Before knowing much about investment banking or M&A, I completed this simulation and achieved a 96% score. It required successful completion of an entire DCF analysis with a recommendation in under 45 minutes.",
+  //   tags: [
+  //     {
+  //       name: "M&A",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "DCF Analysis",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Financial Statements",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: amplify,
+  //   source_code_link: "https://github.com/joelb1401/AMdcf",
+  // },
+  // {
+  //   name: "JP Morgan Chase Investment Banking Job Simulation - Forage",
+  //   description:
+  //     "This simulation introduced me to DCF analysis, target company research and identification, and the auction process. After completing the DCF model, I crafted a concise 2-pager to inform a client's decision-making.",
+  //   tags: [
+  //     {
+  //       name: "M&A",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "DCF Analysis",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Due Diligence",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: jpmorgan,
+  //   source_code_link: "https://github.com/joelb1401/JPMibsim",
+  // },
+  // {
+  //   name: "MacroVoices Podcast",
+  //   description:
+  //     "To keep up-to-date on the current relevant macroeconomic events and learn about how they affect the markets, I listen to the weekly podcast by Erik Townsend and Patrick Ceresna.",
+  //   tags: [
+  //     {
+  //       name: "Macroeconomics",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Investment",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Politics",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: macro,
+  //   source_code_link: "https://www.macrovoices.com/",
+  // },
+ ];
 
 export { services, technologies, experiences, education, projects, other_experience };
